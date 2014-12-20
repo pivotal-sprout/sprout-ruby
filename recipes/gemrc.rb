@@ -8,5 +8,5 @@ end
 
 link "#{node['sprout']['home']}/.gemrc" do
   to '/etc/gemrc'
-  owner node['current_user']
+  owner node['sprout']['user']
 end

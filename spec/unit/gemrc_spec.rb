@@ -1,7 +1,7 @@
 require 'unit/spec_helper'
 
 describe 'sprout-ruby::gemrc' do
-  let(:runner) { ChefSpec::Runner.new }
+  let(:runner) { ChefSpec::SoloRunner.new }
 
   it 'configures rubygems to skip RI and RDOC, globally and for the current user' do
     runner.converge(described_recipe)

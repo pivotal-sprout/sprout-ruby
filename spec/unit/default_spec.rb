@@ -1,7 +1,7 @@
 require 'unit/spec_helper'
 
 describe 'sprout-ruby::default' do
-  let(:runner) { ChefSpec::Runner.new }
+  let(:runner) { ChefSpec::SoloRunner.new }
 
   it 'includes all other recipes' do
     runner.converge(described_recipe)

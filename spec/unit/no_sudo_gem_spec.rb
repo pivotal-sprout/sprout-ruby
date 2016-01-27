@@ -1,7 +1,7 @@
 require 'unit/spec_helper'
 
 describe 'sprout-ruby::no_sudo_gem' do
-  let(:runner) { ChefSpec::Runner.new }
+  let(:runner) { ChefSpec::SoloRunner.new }
 
   it 'creates the "gem_setup-warn_on_sudo.bash" plugin' do
     runner.converge(described_recipe)

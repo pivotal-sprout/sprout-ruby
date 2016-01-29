@@ -1,6 +1,7 @@
 Cheffile.lock
-tmp/
-cookbooks/
-.idea/
-.librarian/
-.bundle/
+Gemfile.lock
+/.idea/
+/.librarian/
+/cookbooks/
+/tmp/
+!/tmp/.gitkeep

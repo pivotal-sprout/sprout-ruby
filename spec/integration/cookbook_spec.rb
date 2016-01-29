@@ -6,7 +6,7 @@ describe 'sprout-ruby' do
   end
 
   it 'converges without errors' do
-    expect(system('soloist')).to be_true
+    expect(system('soloist')).to eq(true)
   end
 
   it 'creates a global gemrc' do

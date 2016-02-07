@@ -1,12 +1,6 @@
-file '/etc/gemrc' do
-  owner 'root'
-  group 'wheel'
+file "#{node['sprout']['home']}/.gemrc" do
+  owner node['sprout']['user']
   mode '0644'
   action :create
   content "install: --no-rdoc --no-ri\nupdate: --no-rdoc --no-ri\n"
-end
-
-link "#{node['sprout']['home']}/.gemrc" do
-  to '/etc/gemrc'
-  owner node['sprout']['user']
 end

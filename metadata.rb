@@ -1,6 +1,8 @@
 name             'sprout-ruby'
 maintainer       'Pivotal'
 maintainer_email 'sprout-maintainers@googlegroups.com'
+source_url       'https://github.com/pivotal-sprout/sprout-ruby'
+issues_url       'https://github.com/pivotal-sprout/sprout-ruby/issues'
 license          'MIT'
 description      'Cookbook for managing ruby related settings'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))

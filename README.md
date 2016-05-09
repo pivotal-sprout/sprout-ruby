@@ -23,7 +23,6 @@ bundle exec soloist
 ### Recipes
 
 1. `sprout-ruby`
-1. `sprout-ruby::no_sudo_gem`
 1. `sprout-ruby::gemrc`
 
 ## Contributing
